@@ -3,9 +3,9 @@
 #Chapter3 Script
 
 #The following script list your connected sda devices and sends the information to a file call here which displays the information gathered by the script.
-
-echo "Your attached devices will be opened outside the terminal"
-
+echo
+echo "Your attached devices will be opened outside the terminal: "
+echo
 #this command shows your attached sda devices and sends the information to the file name here
 
 lsblk > here
